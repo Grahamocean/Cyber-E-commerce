@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 @font-face {
-  font-family: SF PRO Display;
+  font-family: SF PRO Display sans-serif;
   src: url(/Font/SFPRODISPLAYREGULAR.OTF);
 }
 
@@ -35,7 +35,7 @@ body {
 
 /* NAV SECTION STYLING */
 nav {
-  width: 1228px;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
