@@ -165,9 +165,10 @@ nav {
   color: var(--text-color);
 }
 .hero-left-side h3 {
-  font-family: var(--SF);
+  font-family: var(--primary-font);
   font-size: 6rem;
   color: #ffffff;
+  font-weight: 500;
 }
 
 .hero-left-side h3 > span {
