@@ -129,7 +129,6 @@ nav {
 .shopping-cart {
   width: 100%;
   height: 880px;
-  border: 1px solid greenyellow;
   display: grid;
   place-items: center;
 }
@@ -137,14 +136,13 @@ nav {
 .shopping-cart-container {
   width: 1120px;
   height: 656px;
-  border: 1px solid blue;
   display: flex;
+  justify-content: space-between;
 }
 
 .shop-cart {
   width: 536px;
   height: 590px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -154,12 +152,6 @@ nav {
   font-size: 1.5em;
   font-weight: 600;
   font-family: var(--primary-font);
-}
-
-.order-summary {
-  width: 536px;
-  height: inherit;
-  border: 1px solid purple;
 }
 
 .cart-product-container {
@@ -172,8 +164,8 @@ nav {
 
 .line {
   width: 100%;
-  height: 1px;
-  border: 0.5px solid #a3a3a3;
+  height: 0.5px;
+  background-color: #a3a3a39a;
 }
 
 .cart-product {
@@ -250,6 +242,7 @@ nav {
   height: 24px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .info-value button > i {
@@ -278,9 +271,186 @@ nav {
   height: 100%;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .info-cancel button > i {
   font-size: 2em;
   color: black;
+}
+
+/* ORDER SUMMARY*/
+.order-summary {
+  width: 536px;
+  height: inherit;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 3.5rem 4rem;
+  gap: 2.5rem;
+}
+
+.order-summary h3 {
+  font-size: 1.35em;
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+
+.summary-inner {
+  width: 408px;
+  height: 488px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.discount {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.discount p {
+  font-size: 1em;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: #545454;
+}
+
+.discount input {
+  width: 100%;
+  height: 56px;
+  border: 0.5px solid #9f9f9f;
+  border-radius: 7px;
+  outline: none;
+  padding: 16px 0 16px 16px;
+}
+
+.discount input::placeholder {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  color: #979797;
+}
+
+.bonus-card {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bonus-card p {
+  font-size: 1em;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: #545454;
+}
+
+.bonus-card-inner {
+  width: 100%;
+  height: 64px;
+  border: 0.5px solid #9f9f9f;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.bonus-card-inner input {
+  width: 299px;
+  height: 24px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.bonus-card-inner input::placeholder {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: var(--primary-font);
+  color: #979797;
+}
+
+.bonus-card-inner button {
+  width: 76.45px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 1.2em;
+  font-family: var(--primary-font);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sub-total {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-1 {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-1 h4,
+.price-1 p {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+.taxes {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-2 {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-2 h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #545454;
+  font-family: var(--primary-font);
+}
+
+.price-2 p {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000;
+  font-family: var(--primary-font);
+}
+
+.summary-btn {
+  width: 100%;
+  height: 56px;
+  border: none;
+  background-color: #000;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: var(--primary-font);
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
 }
