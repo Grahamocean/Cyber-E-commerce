@@ -42,6 +42,7 @@ nav {
   align-items: center;
   gap: 4em;
   padding: 0 5rem;
+  border-bottom: 1px solid #b5b5b5;
 }
 
 .cyber-logo {
