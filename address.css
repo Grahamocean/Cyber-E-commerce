@@ -184,3 +184,18 @@ nav {
 .address:nth-child(3) .address-text {
   opacity: 0.5;
 }
+
+/* TWO STYLING */
+.two {
+  width: 100%;
+  height: 688px;
+  border: 1px solid brown;
+  display: grid;
+  place-items: center;
+}
+
+.two-inner {
+  width: 1120px;
+  height: 592px;
+  border: 1px solid blue;
+}
