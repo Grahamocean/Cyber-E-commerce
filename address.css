@@ -133,7 +133,6 @@ nav {
 }
 
 .one-inner {
-  border: 1px solid black;
   width: 1120px;
   height: 50px;
   display: flex;
@@ -144,7 +143,6 @@ nav {
 .address {
   width: 160px;
   height: 40px;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,7 +151,6 @@ nav {
 .address-img {
   width: 24px;
   height: 24px;
-  border: 1px solid blue;
 }
 
 .address-img img {
@@ -165,7 +162,6 @@ nav {
 .address-text {
   width: 128px;
   height: 100%;
-  border: 1px solid brown;
   line-height: 1.2;
 }
 
@@ -179,4 +175,12 @@ nav {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 1.5em;
+}
+
+.address:nth-child(2) .address-text {
+  opacity: 0.5;
+}
+
+.address:nth-child(3) .address-text {
+  opacity: 0.5;
 }
