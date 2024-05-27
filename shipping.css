@@ -176,7 +176,7 @@ nav {
   font-size: 1.5em;
 }
 
-.address:nth-child(2) .address-text {
+.address:nth-child(1) {
   opacity: 0.2;
 }
 
