@@ -183,3 +183,222 @@ nav {
 .address:nth-child(2) {
   opacity: 0.2;
 }
+
+/* CONTENT STYLING */
+.content {
+  width: 100%;
+  height: 800px;
+  border: 1px solid blue;
+  display: grid;
+  place-items: center;
+}
+
+.content-inner {
+  width: 1120px;
+  height: 704px;
+  border: 1px solid brown;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 512px;
+  height: 100%;
+  border: 1px solid #ebebeb;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-left h3 {
+  font-family: var(--primary-font);
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.content-product {
+  width: 100%;
+  height: 248px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.product-container {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  background-color: #f6f6f6;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0px 16px 16px;
+  border-radius: 13px;
+}
+
+.product-image {
+  width: 40px;
+  height: 40px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-text {
+  width: 392px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+
+.product-text h4 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.product-text p {
+  font-family: var(--primary-font);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.content-text {
+  width: 100%;
+  height: 328px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content-text1 {
+  width: 100%;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addres {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.addres p {
+  font-size: 0.875em;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: #545454;
+}
+
+.addres-inner {
+  width: 100%;
+  height: 48px;
+  padding: 0.75rem 0 0.75em 0;
+}
+
+.addres h5 {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: var(--primary-font);
+}
+
+.shipment {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shipment p {
+  font-size: 0.875em;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: #545454;
+}
+
+.shipment h5 {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: var(--primary-font);
+}
+
+.content-text2 {
+  width: 100%;
+  height: 168px;
+}
+
+.sub-total {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-1 {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-1 h4,
+.price-1 p {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+.taxes {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-2 {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-2 h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #545454;
+  font-family: var(--primary-font);
+}
+
+.price-2 p {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000;
+  font-family: var(--primary-font);
+}
+
+/* CONTENT RIGHT SYTLING */
+.content-right {
+  width: 512px;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.payment {
+  width: 100%;
+  height: 518px;
+  border: 1px solid blue;
+}
