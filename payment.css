@@ -446,3 +446,11 @@ nav {
   bottom: -8px;
   box-sizing: border-box;
 }
+
+.payment-card {
+  width: 337px;
+  height: 188.28px;
+  border: 1px solid red;
+  border-radius: 15px;
+  background-color: #000;
+}
