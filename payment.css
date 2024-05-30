@@ -189,7 +189,6 @@ nav {
 .content {
   width: 100%;
   height: 800px;
-  border: 1px solid blue;
   display: grid;
   place-items: center;
 }
@@ -197,7 +196,6 @@ nav {
 .content-inner {
   width: 1120px;
   height: 704px;
-  border: 1px solid brown;
   display: flex;
   justify-content: space-between;
 }
@@ -395,13 +393,14 @@ nav {
 .content-right {
   width: 512px;
   height: 100%;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .payment {
   width: 100%;
   height: 518px;
-  border: 1px solid blue;
   flex-direction: column;
   display: flex;
   justify-content: space-between;
@@ -545,7 +544,6 @@ nav {
 .card-input-container {
   width: 100%;
   height: 176px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -678,4 +676,81 @@ nav {
 .payment-btn button:nth-child(2) {
   background-color: #000;
   color: #ffffff;
+}
+
+/* FOOTER STYLING */
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  display: grid;
+  place-content: center;
+}
+
+.footer-container {
+  width: 1120px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  width: 384px;
+  height: 95px;
+  line-height: 1.5;
+}
+
+.footer-info p {
+  color: var(--footer-text);
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  padding-top: 2em;
+  font-weight: 500;
+}
+
+.footer-nav {
+  width: 295.5px;
+  height: 100%;
+}
+
+.footer-nav h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: var(--primary-font);
+}
+
+.footer-nav ol {
+  line-height: 3;
+}
+
+.footer-nav ol li {
+  list-style-type: none;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--footer-text);
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+.footer-socials {
+  width: 173px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-social-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
