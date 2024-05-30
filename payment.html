@@ -184,7 +184,7 @@
             <div class="payment-card">
               <div class="chips">
                 <div class="chip">
-                  <img src="/images/Card/icons8-chip-card-21.png" alt="" />
+                  <img src="/images/Card/chip.png" alt="" />
                 </div>
                 <div class="wifi">
                   <img src="/images/Card/wifi.png" alt="" />
@@ -192,10 +192,46 @@
               </div>
               <div class="card-details">
                 <div class="card-number">
-                  <h5>4085 9536 8475 9530</h5>
+                  <span>4085</span>
+                  <span>9536</span>
+                  <span>8475</span>
+                  <span>9530</span>
+                </div>
+                <div class="card-holder">
+                  <p>Cardholder</p>
+                  <div class="logo">
+                    <img src="/images/Card/mc_symbol.svg" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="card-input-container">
+              <div class="input-field">
+                <input type="text" placeholder="Cardholder Name" />
+              </div>
+              <div class="input-field">
+                <input type="text" placeholder="Card Number" />
+              </div>
+              <div class="input-double-field">
+                <div class="single-field">
+                  <input type="text" placeholder="Exp. Date" />
+                </div>
+                <div class="single-field">
+                  <input type="text" placeholder="CVV" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="billing">
+            <input type="checkbox" name="billing" id="billing" />
+            <label for="billing">Same as billing address</label>
+          </div>
+
+          <div class="payment-btn">
+            <button>Back</button>
+            <button>Pay</button>
           </div>
         </div>
       </div>
