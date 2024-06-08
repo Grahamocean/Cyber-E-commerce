@@ -127,6 +127,36 @@ nav {
   object-fit: contain;
 }
 
+.menu-icon {
+  display: none;
+}
+
+.menu-icon i {
+  font-size: 1.5rem;
+}
+
+.menu-container-mobile {
+  min-width: 30%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 10%;
+  right: 0;
+}
+
+/* FOR MOBILE */
+@media (max-width: 1298px) {
+  .nav-links,
+  .nav-icons,
+  .search {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}
+
 /* HERO SECTION STYLING */
 
 .hero {
