@@ -92,7 +92,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   font-family: var(--primary-font);
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: var(--primary-color);
   font-weight: 500;
 }
@@ -150,7 +150,7 @@ nav {
 }
 
 .shop-cart h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--primary-font);
 }
@@ -200,7 +200,7 @@ nav {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.2em;
 }
 
 .info-left h3 {
@@ -211,7 +211,7 @@ nav {
 }
 
 .info-left p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: var(--primary-font);
 }
@@ -226,7 +226,7 @@ nav {
 
 .info-right h2 {
   font-family: var(--primary-font);
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -276,7 +276,7 @@ nav {
 }
 
 .info-cancel button > i {
-  font-size: 2em;
+  font-size: 2rem;
   color: black;
 }
 
@@ -289,12 +289,12 @@ nav {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
-  padding: 3.5rem 4rem;
-  gap: 2.5rem;
+  padding: 3.5em 4em;
+  gap: 2.5em;
 }
 
 .order-summary h3 {
-  font-size: 1.35em;
+  font-size: 1.35rem;
   font-family: var(--primary-font);
   font-weight: 700;
 }
@@ -315,7 +315,7 @@ nav {
 }
 
 .discount p {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: var(--primary-font);
   font-weight: 500;
   color: #545454;
@@ -331,7 +331,7 @@ nav {
 }
 
 .discount input::placeholder {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: var(--primary-font);
   color: #979797;
@@ -346,7 +346,7 @@ nav {
 }
 
 .bonus-card p {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: var(--primary-font);
   font-weight: 500;
   color: #545454;
@@ -371,7 +371,7 @@ nav {
 }
 
 .bonus-card-inner input::placeholder {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
   font-family: var(--primary-font);
   color: #979797;
@@ -383,7 +383,7 @@ nav {
   background-color: #ffffff;
   border: 1px solid black;
   border-radius: 6px;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-family: var(--primary-font);
   color: #000;
   font-weight: 600;
@@ -408,7 +408,7 @@ nav {
 
 .price-1 h4,
 .price-1 p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: var(--primary-font);
 }
@@ -430,14 +430,14 @@ nav {
 }
 
 .price-2 h4 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #545454;
   font-family: var(--primary-font);
 }
 
 .price-2 p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #000;
   font-family: var(--primary-font);
@@ -451,7 +451,7 @@ nav {
   border-radius: 6px;
   color: #ffffff;
   font-family: var(--primary-font);
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
 }
