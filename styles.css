@@ -292,7 +292,7 @@ nav {
 }
 
 .left-child-text h3 {
-  font-size: 4em;
+  font-size: 4rem;
   font-family: var(--primary-font);
   font-weight: 500;
 }
@@ -393,7 +393,7 @@ nav {
 }
 
 .right-side-text h3 {
-  font-size: 4em;
+  font-size: 4rem;
   font-family: var(--primary-font);
   font-weight: 200;
 }
@@ -614,7 +614,7 @@ nav {
 }
 
 .product-price {
-  font-size: 2em;
+  font-size: 2rem;
   font-family: var(--primary-font);
   font-weight: 600;
   text-align: center;
@@ -682,12 +682,12 @@ nav {
 
 .product-banner-container h3 {
   font-family: var(--primary-font);
-  font-size: 2.1em;
+  font-size: 2.1rem;
   font-weight: 300;
 }
 
 .product-banner-container p {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
   font-family: var(--primary-font);
   color: var(--text-color);
@@ -702,7 +702,7 @@ nav {
   color: #000000;
   background-color: transparent;
   border: 1px solid black;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
@@ -803,7 +803,7 @@ nav {
 
 .banner-text-inner h3 {
   font-family: var(--primary-font);
-  font-size: 4.5em;
+  font-size: 4.5rem;
   font-weight: 200;
   color: #ffffff;
   word-spacing: 0.1em;
@@ -828,7 +828,7 @@ nav {
   color: #ffffff;
   background-color: transparent;
   border: 1px solid #ffffff;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 
