@@ -132,6 +132,7 @@ nav {
 }
 
 .one-inner {
+  max-width: 100%;
   width: 1120px;
   height: 50px;
   display: flex;
@@ -193,6 +194,7 @@ nav {
 }
 
 .shipping {
+  max-width: 100%;
   width: 1120px;
   height: 592px;
   display: flex;

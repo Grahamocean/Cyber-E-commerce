@@ -110,7 +110,6 @@ nav {
 .nav-icons {
   width: 120px;
   height: 30px;
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
 }
@@ -118,7 +117,6 @@ nav {
 .navicon {
   width: 20px;
   height: 100%;
-  /* border: 1px solid #000; */
 }
 
 .navicon img {
@@ -142,6 +140,8 @@ nav {
   position: fixed;
   top: 10%;
   right: 0;
+  left: 0;
+  display: none;
 }
 
 /* FOR MOBILE */
