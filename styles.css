@@ -141,6 +141,13 @@ nav {
 
 .menu-icon {
   display: none;
+
+  /* display: flex; */
+  position: relative;
+}
+
+.menu-icon i:last-child {
+  display: none;
 }
 
 .menu-icon i {
