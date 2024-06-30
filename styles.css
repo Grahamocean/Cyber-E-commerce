@@ -230,7 +230,7 @@ nav {
   color: var(--text-color);
 }
 .hero-left-side h3 {
-  font-family: var(--SF);
+  /* font-family: var(--SF); */
   font-size: 8rem;
   color: #ffffff;
   font-weight: 500;
