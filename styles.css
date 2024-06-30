@@ -14,7 +14,7 @@ body {
 }
 
 @font-face {
-  font-family: SF Thin;
+  font-family: SF Thin sans-serif;
   src: url(./font/FontsFree-Net-SFProDisplay-Thin.ttf);
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 :root {
-  --primary-font: SF PRO Display;
+  --primary-font: SF PRO Display sans-serif sans-serif;
   --Figtree: Figtree;
   --SF: SF Thin;
   --text-color: #909090;
@@ -230,16 +230,16 @@ nav {
   color: var(--text-color);
 }
 .hero-left-side h3 {
-  /* font-family: var(--SF); */
+  font-family: var(--primary-font);
   font-size: 8rem;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .hero-left-side h3 > span {
   font-family: var(--primary-font);
-  font-size: 6rem;
-  font-weight: 800;
+  font-size: 8rem;
+  font-weight: 600;
   color: #ffffff;
 }
 
