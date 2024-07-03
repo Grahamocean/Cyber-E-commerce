@@ -44,7 +44,6 @@ nav {
   z-index: 100;
   background-color: #fff;
   top: 0;
-  border: 1px solid red;
   padding: 0 6%;
   position: relative;
 }
@@ -59,7 +58,6 @@ nav {
   min-height: 80px;
   margin-inline: auto;
   /* z-index: 100; */
-  border: 1px solid blue;
 }
 .cyber-logo {
   width: 65.4px;
