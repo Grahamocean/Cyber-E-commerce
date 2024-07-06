@@ -344,7 +344,6 @@ nav {
   margin: 0 auto;
   gap: 4em;
   margin-top: 5rem;
-  border: 1px solid blue;
 }
 
 .hero-left-side {
@@ -481,6 +480,7 @@ nav {
   height: 300px;
   width: 100%;
   display: flex;
+  border: 1px solid blue;
 }
 
 .left-child-img {
