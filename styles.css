@@ -691,7 +691,7 @@ nav {
     display: flex;
     flex-direction: column;
     max-width: 449px;
-    min-height: 1672px;
+    height: 1672px;
   }
   .prod-1 {
     max-width: 100%;
