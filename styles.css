@@ -690,6 +690,8 @@ nav {
   .hero-2-mobile {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     max-width: 449px;
     height: 1672px;
   }
