@@ -694,6 +694,7 @@ nav {
     align-items: center;
     max-width: 449px;
     height: 1672px;
+    overflow-x: hidden;
   }
   .prod-1 {
     max-width: 100%;
