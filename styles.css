@@ -695,7 +695,7 @@ nav {
   }
   .prod-1 {
     max-width: 100%;
-    min-height: 376px;
+    height: 376px;
     padding: 2.5rem 2.5rem;
     display: flex;
     flex-direction: column;
@@ -754,7 +754,7 @@ nav {
   }
 
   .prod-2 {
-    min-height: 368px;
+    height: 368px;
     width: 100%;
     background-color: #353535;
     display: flex;
@@ -774,7 +774,7 @@ nav {
   }
 
   .prod-3 {
-    max-height: 424px;
+    height: 424px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -790,7 +790,7 @@ nav {
   }
 
   .prod-4 {
-    max-height: 504px;
+    height: 504px;
     padding: 2.5rem 2.5rem;
     display: flex;
     flex-direction: column;
