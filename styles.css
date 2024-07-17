@@ -730,7 +730,7 @@ nav {
 
   .prod-text h3 {
     font-family: var(--primary-font);
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 400;
     margin-bottom: 0.7rem;
   }
@@ -740,7 +740,7 @@ nav {
   }
 
   .prod-text p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #909090;
     font-family: var(--primary-font);
     line-height: 1.5;
