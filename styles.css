@@ -450,6 +450,9 @@ nav {
 }
 
 @media (max-width: 450px) {
+  .hero {
+    min-height: 100dvh;
+  }
   .hero-left-side {
     justify-content: space-between;
   }
