@@ -747,17 +747,6 @@ nav {
     font-weight: 500;
   }
 
-  .mobile-btn {
-    max-width: 100%;
-    padding: 16px 56px;
-    border-radius: 7px;
-    border: 1px solid #000;
-    font-family: var(--primary-font);
-    font-size: 1.5rem;
-    background: transparent;
-    font-weight: 400;
-  }
-
   .prod-2 {
     height: 100%;
     width: 100%;
@@ -810,11 +799,22 @@ nav {
     width: 330px;
     height: 200px;
   }
+
+  .mobile-btn {
+    max-width: 100%;
+    padding: 16px 56px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    background: transparent;
+    font-weight: 400;
+  }
 }
 
 /* CATERGORY STYLING */
 .category {
-  width: 100%;
+  max-width: 100%;
   height: 300px;
   display: grid;
   place-content: center;
@@ -822,7 +822,7 @@ nav {
 }
 
 .category1 {
-  width: 1120px;
+  max-width: 1120px;
   height: 32px;
   display: flex;
   justify-content: space-between;
@@ -835,19 +835,18 @@ nav {
   font-family: var(--primary-font);
 }
 
-.category-nav-icons {
-  width: 70px;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
+.category-nav-icons i {
+  font-size: 2rem;
 }
 
 .card-container {
-  width: 1120px;
+  max-width: 1120px;
   height: 128px;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   margin-top: 2em;
+  flex-wrap: wrap;
 }
 
 .card-container a {
@@ -863,9 +862,10 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  line-height: 1.5;
+  gap: 1rem;
   background-color: #ededed;
   border-radius: 10px;
+  border: 1px solid blue;
 }
 
 .category-card span {
@@ -874,6 +874,9 @@ nav {
   font-weight: 600;
 }
 
+.category-card i {
+  font-size: 5rem;
+}
 .category-card-image {
   width: 60px;
   height: 60px;
@@ -883,6 +886,30 @@ nav {
   width: 100%;
   height: 100%;
   object-position: contain;
+}
+
+/* FOR MOBILE */
+@media (max-width: 1042px) {
+  .category {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 450px) {
+  .category1 h4 {
+    font-size: 1.2rem;
+  }
+
+  .category-nav-icons i {
+    font-size: 1.2rem;
+  }
+  .category {
+    padding: 2.5rem;
+    /* flex-wrap: wrap; */
+  }
 }
 
 /* PRODUCT CONTAINER STYLING */
