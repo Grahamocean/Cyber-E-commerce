@@ -786,7 +786,7 @@ nav {
   }
 
   .play5text p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #909090;
   }
 
@@ -834,13 +834,13 @@ nav {
 
   .vision-text h4,
   .airpods-text h4 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-bottom: 0.5rem;
   }
 
   .vision-text p,
   .airpods-text p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #909090;
   }
 
