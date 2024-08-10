@@ -1152,6 +1152,22 @@ nav {
   .category-card {
     width: 185px;
   }
+
+  .category-card-image {
+    width: 48px;
+    height: 48px;
+  }
+
+  .category-card-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .category-card {
+    width: 170px;
+  }
 }
 
 @media (max-width: 361px) {
