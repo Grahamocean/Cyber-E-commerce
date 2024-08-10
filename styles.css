@@ -1235,7 +1235,7 @@ nav {
 
 .product-card {
   width: 268px;
-  height: 432px;
+  min-height: 432px;
   padding: 2rem;
   line-height: 1.5;
   position: relative;
@@ -1322,7 +1322,7 @@ nav {
   }
   .product-card {
     width: 155px;
-    height: 352px;
+    min-height: 352px;
     padding: 24px 12px;
     /* position: relative; */
   }
