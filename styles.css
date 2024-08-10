@@ -1350,9 +1350,17 @@ nav {
   }
 }
 
-@media (max-width: 351px) {
+@media (max-width: 361px) {
+  .product-tags ul li a {
+    font-size: 0.8rem;
+  }
   .product {
     width: 100%;
+  }
+
+  .product-name {
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   .product-container {
@@ -1361,6 +1369,10 @@ nav {
   }
   .product-card {
     /* width: 150px; */
+  }
+
+  .product-btn a {
+    font-size: 0.8rem;
   }
 }
 
