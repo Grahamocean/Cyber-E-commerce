@@ -1040,6 +1040,7 @@ nav {
   flex-direction: column;
   background-color: #fafafa;
   border: 2px solid blue;
+  padding: 64px 16px;
 }
 
 .category1 {
@@ -1133,6 +1134,13 @@ nav {
   .category {
     /* min-height: 100%; */
     /* flex-wrap: nowrap; */
+  }
+  .category-card {
+    width: 140px;
+  }
+
+  .card-container {
+    width: 100%;
   }
 }
 
