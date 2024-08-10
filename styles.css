@@ -412,6 +412,7 @@ nav {
 }
 
 .hero-right-side {
+  border: 2px solid red;
   max-width: 406px;
   height: 100%;
 }
@@ -435,7 +436,7 @@ nav {
 @media (max-width: 900px) {
   .hero-container {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 8rem;
   }
@@ -1073,6 +1074,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  row-gap: 1rem;
+  column-gap: 1rem;
   margin-top: 2em;
   flex-wrap: wrap;
   /* border: 1px solid red; */
@@ -1143,6 +1146,7 @@ nav {
 
   .card-container {
     width: 100%;
+    /* row-gap: 1rem; */
   }
 }
 
