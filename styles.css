@@ -1246,6 +1246,7 @@ nav {
   background-color: var(--product-card);
   border-radius: 7px;
   border: none;
+  border: 1px solid blue;
 }
 
 .fav {
@@ -1279,6 +1280,7 @@ nav {
   height: 100%;
   text-align: center;
   width: 100%;
+  height: 100%;
 }
 
 .product-name {
