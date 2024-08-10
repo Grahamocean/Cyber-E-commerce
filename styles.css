@@ -1094,6 +1094,7 @@ nav {
 }
 
 .card-container a {
+  font-size: 1rem;
   text-decoration: none;
   color: #000;
   font-family: var(--primary-font);
@@ -1114,7 +1115,7 @@ nav {
 }
 
 .category-card a {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
 }
 
