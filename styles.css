@@ -1246,7 +1246,7 @@ nav {
   background-color: var(--product-card);
   border-radius: 7px;
   border: none;
-  border: 1px solid blue;
+  border: 2px solid rgb(168, 168, 251);
 }
 
 .fav {
