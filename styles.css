@@ -1346,7 +1346,6 @@ nav {
   .product-btn {
     padding: 0.5rem 3rem;
     width: inherit;
-    height: ;
   }
 }
 
@@ -1356,7 +1355,7 @@ nav {
   }
 
   .product-tags li:nth-of-type(1) a::after {
-    width: 45px;
+    width: 50px;
   }
   .product {
     width: 100%;
@@ -1381,6 +1380,8 @@ nav {
 
   .product-btn a {
     font-size: 0.6rem;
+    border: 1px solid white;
+    width: 100%;
   }
 }
 
