@@ -1345,7 +1345,7 @@ nav {
 
   .product-btn {
     padding: 0.5rem 3rem;
-    width: inherit;
+    width: 100%;
   }
 }
 
@@ -1368,14 +1368,6 @@ nav {
 
   .product-price {
     font-size: 1.5rem;
-  }
-
-  .product-container {
-    /* padding: ; */
-    /* gap: 0.1rem; */
-  }
-  .product-card {
-    /* width: 150px; */
   }
 
   .product-btn a {
