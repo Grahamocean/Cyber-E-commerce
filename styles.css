@@ -1371,6 +1371,8 @@ nav {
   }
 
   .product-btn a {
+    margin: auto;
+    text-align: center;
     font-size: 0.6rem;
     border: 1px solid white;
     width: 100%;
