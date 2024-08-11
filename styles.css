@@ -1350,6 +1350,10 @@ nav {
     overflow: hidden;
   }
 
+  .product-inner a {
+    white-space: nowrap;
+  }
+
   .product-btn {
     padding: 0.5rem 3rem;
     width: 100%;
@@ -1363,6 +1367,7 @@ nav {
 
   .product-inner a {
     font-size: 1rem;
+    white-space: nowrap;
   }
 }
 
