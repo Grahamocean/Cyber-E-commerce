@@ -1181,7 +1181,7 @@ nav {
   min-height: 1000px;
   display: grid;
   place-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .product-tags {
@@ -1230,7 +1230,7 @@ nav {
   flex-wrap: wrap;
   gap: 1.2rem;
   margin-top: 1em;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .product-card {
@@ -1246,7 +1246,7 @@ nav {
   background-color: var(--product-card);
   border-radius: 7px;
   border: none;
-  border: 2px solid rgb(168, 168, 251);
+  /* border: 2px solid rgb(168, 168, 251); */
 }
 
 .fav {
