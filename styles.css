@@ -1355,7 +1355,7 @@ nav {
   }
 
   .product-tags li:nth-of-type(1) a::after {
-    width: 50px;
+    width: 67px;
   }
   .product {
     width: 100%;
@@ -1371,7 +1371,8 @@ nav {
   }
 
   .product-btn a {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+    text-align: center;
     /* border: 1px solid white; */
     white-space: nowrap;
     /* width: 100%; */
