@@ -655,7 +655,7 @@ nav {
 .spec-detail {
   width: 168px;
   min-height: 64px;
-  /* padding: 1rem; */
+  padding: 1rem;
   border-radius: 7px;
   display: flex;
   align-items: center;
@@ -672,6 +672,10 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.spec-text {
+  width: 104px;
+  min-height: 24px;
 }
 
 .spec-text p {
