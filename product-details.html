@@ -4,19 +4,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product-detail</title>
     <link rel="stylesheet" href="product-details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+      integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- NAVIGATION LINKS & CO -->
-      <nav>
+    <nav>
+      <div class="nav-container">
         <div class="cyber-logo">
-          <img src="/images/Logo Vector.png" />
+          <img src="./images/Logo Vector.png" />
         </div>
-
         <div class="search">
-          <img src="/images/Search.png" alt="navsearchicon" />
+          <img src="./images/Search.png" alt="navsearchicon" loading="lazy" />
           <input class="search-input" type="search" placeholder="Search" />
         </div>
-
         <div class="nav-links">
           <ul>
             <li><a href="#">Home</a></li>
@@ -25,37 +39,67 @@
             <li><a href="#">Blog</a></li>
           </ul>
         </div>
-
         <div class="nav-icons">
           <div class="navicon">
-            <img src="/images/love.png" />
+            <img src="./images/love.png" />
           </div>
           <div class="navicon">
-            <img src="/images/icons8-shopping-cart-24.png" />
+            <img src="./images/icons8-shopping-cart-24.png" />
           </div>
           <div class="navicon">
             <img src="images/icons8-user-32.png" />
           </div>
         </div>
-      </nav>
-
-      <!-- BREADCRUMBS SECTION -->
-      <section class="breadcrumbs">
-        <div class="breadcrumbs-inner">
-          <p><a href="">Home</a></p>
-          <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
-          <p><a href="">Catalog</a></p>
-          <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
-          <p><a href="">Smartphones</a></p>
-          <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
-          <p><a href="">Apple</a></p>
-          <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
-          <p><a href="">iPhone 14 Pro Max</a></p>
+        <div class="menu-icon" id="menu-icon">
+          <i class="ri-menu-line" id="menubar"></i>
+          <i class="ri-close-large-line" id="closeMenu"></i>
         </div>
-      </section>
+        <div class="menu-container-mobile" id="mobile_menu_container">
+          <div class="mobile-search-icon">
+            <div class="mobile-search">
+              <img
+                src="./images/Search.png"
+                alt="navsearchicon"
+                loading="lazy"
+              />
+              <input class="search-input" type="search" placeholder="Search" />
+            </div>
+            <div class="mobile-nav-icons">
+              <i class="ri-heart-line"></i>
+              <i class="ri-shopping-cart-line"></i>
+              <i class="ri-user-line"></i>
+            </div>
+          </div>
 
-      <!-- DETAILS SECTION -->
-      <section class="details-parent">
+          <div class="mobile-nav-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BREADCRUMBS SECTION -->
+    <section class="breadcrumbs">
+      <div class="breadcrumbs-inner">
+        <p><a href="">Home</a></p>
+        <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
+        <p><a href="">Catalog</a></p>
+        <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
+        <p><a href="">Smartphones</a></p>
+        <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
+        <p><a href="">Apple</a></p>
+        <a href=""><img src="/images/chevron-right-solid.svg" alt="" /></a>
+        <p><a href="">iPhone 14 Pro Max</a></p>
+      </div>
+    </section>
+
+    <!-- DETAILS SECTION -->
+     <section class="details-parent">
         <div class="details-child">
           <div class="details-product-images-container">
             <div class="small-img-container">
@@ -85,6 +129,7 @@
                 <p class="old-price">$1499</p>
               </div>
             </div>
+            
             <div class="product-colors">
               <h5>Select-color:</h5>
               <div class="color">
@@ -210,10 +255,10 @@
             
           </div>
         </div>
-      </section>
+      </section> 
 
-      <!-- PRODUCT DETAIL SECTION -->
-      <section class="product-detail-container">
+    <!-- PRODUCT DETAIL SECTION -->
+    <!-- <section class="product-detail-container">
         <div class="product-detail-inner">
           <div class="details">
             <h3>Details</h3>
@@ -282,10 +327,10 @@
             View More<i class="fa-solid fa-angle-down"></i>
           </button>
         </div>
-      </section>
+      </section> -->
 
-<!-- REVIEW AND COMMENT SECTION -->
-    <section class="reviews">
+    <!-- REVIEW AND COMMENT SECTION -->
+    <!-- <section class="reviews">
       <div class="review-comment">
         <h3>Reviews</h3>
         <div class="rating">
@@ -451,9 +496,9 @@
           View More<i class="fa-solid fa-angle-down"></i>
         </button>
       </div>
-    </section>
+    </section> -->
 
-    <section class="discount-product">
+    <!-- <section class="discount-product">
         <div class="discount-text">
           <h3>Related Products</h3>
         </div>
@@ -508,71 +553,94 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- FOOTER SECTION -->
-    <footer>
+    <!-- <footer>
       <section class="footer-container">
         <div class="footer-info">
           <div class="cyber-logo">
             <img src="/images/Product-images/footer logo.png" alt="#" />
           </div>
 
-          <p>We are a residential interior design firm located in Portland.
-             Our boutique-studio offers more than</p>
+          <p>
+            We are a residential interior design firm located in Portland. Our
+            boutique-studio offers more than
+          </p>
         </div>
 
         <div class="footer-nav">
           <h4>Services</h4>
-            <ol>
-              <li class="footer-list"><a class="footer-link" href="#">Bonus Program</a></li>
-            
-              <li class="footer-list"><a class="footer-link" href="#">Gift cards</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Credit and Payment</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Service Contracts</a></li>
+          <ol>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Bonus Program</a>
+            </li>
 
-              <li class="footer-list"><a class="footer-link" href="#">Non-Cash Payments</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Payments</a></li>
-             
-            </ol>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Gift cards</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Credit and Payment</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Service Contracts</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Non-Cash Payments</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Payments</a>
+            </li>
+          </ol>
         </div>
 
         <div class="footer-nav">
           <h4>Assistance to the buyer</h4>
-            <ol>
-              <li class="footer-list"><a class="footer-link" href="#">Find an Order</a></li>
-            
-              <li class="footer-list"><a class="footer-link" href="#">Terms of delivery</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Exchange and return of goods</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Guarantee</a></li>
+          <ol>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Find an Order</a>
+            </li>
 
-              <li class="footer-list"><a class="footer-link" href="#">Frequently asked questions</a></li>
-              
-              <li class="footer-list"><a class="footer-link" href="#">Terms of use of the site</a></li>
-             
-            </ol>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Terms of delivery</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Exchange and return of goods</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Guarantee</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Frequently asked questions</a>
+            </li>
+
+            <li class="footer-list">
+              <a class="footer-link" href="#">Terms of use of the site</a>
+            </li>
+          </ol>
         </div>
-        
       </section>
-        <div class="footer-socials">
-          <div class="footer-social-icon">
-            <img src="/images/socials/Twitter.png" alt="">
-          </div>
-          <div class="footer-social-icon">
-            <img src="/images/socials/Facebook.png" alt="">
-          </div>
-          <div class="footer-social-icon">
-            <img src="/images/socials/Tiktok.png" alt="">
-          </div>
-          <div class="footer-social-icon">
-            <img src="/images/socials/Instagram.png" alt="">
-          </div>
+      <div class="footer-socials">
+        <div class="footer-social-icon">
+          <img src="/images/socials/Twitter.png" alt="" />
         </div>
-    </footer>
+        <div class="footer-social-icon">
+          <img src="/images/socials/Facebook.png" alt="" />
+        </div>
+        <div class="footer-social-icon">
+          <img src="/images/socials/Tiktok.png" alt="" />
+        </div>
+        <div class="footer-social-icon">
+          <img src="/images/socials/Instagram.png" alt="" />
+        </div>
+      </div>
+    </footer> -->
   </body>
 </html>
