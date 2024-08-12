@@ -600,6 +600,7 @@ nav {
 
   .spec-detail {
     /* padding: 1rem; */
+    gap: 1rem;
   }
 
   .spec-text {
@@ -608,7 +609,7 @@ nav {
   }
 
   .spec-text p {
-    font-size: 0.5rem;
+    font-size: 12px;
   }
 }
 
@@ -675,7 +676,7 @@ nav {
 }
 .spec-text {
   width: 104px;
-  min-height: 24px;
+  height: 30px;
 }
 
 .spec-text p {
