@@ -558,7 +558,7 @@ nav {
   .details-child {
     width: 100%;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
   }
 
   .details-product-images-container {
@@ -595,6 +595,7 @@ nav {
 
   .product-colors h5 {
     font-size: 0.8rem;
+    display: block;
   }
 
   .spec-detail {
