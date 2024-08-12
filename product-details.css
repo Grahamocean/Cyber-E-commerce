@@ -590,11 +590,15 @@ nav {
   }
 
   .productname-pricecontainer h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .product-colors h5 {
     font-size: 1rem;
+  }
+
+  .spec-detail {
+    padding: 1rem;
   }
 }
 
