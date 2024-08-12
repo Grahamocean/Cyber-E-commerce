@@ -459,7 +459,7 @@ nav {
 
 .productname-pricecontainer {
   width: 100%;
-  height: 112px;
+  min-height: 112px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -587,6 +587,14 @@ nav {
     width: 74px;
     height: 100%;
     /* object-fit: contain; */
+  }
+
+  .productname-pricecontainer h2 {
+    font-size: 3rem;
+  }
+
+  .product-colors h5 {
+    font-size: 1.1rem;
   }
 }
 
