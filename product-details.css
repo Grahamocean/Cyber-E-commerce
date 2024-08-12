@@ -603,7 +603,7 @@ nav {
   }
 
   .spec-text {
-    width: 162px;
+    /* width: 162px; */
     border: 1px solid red;
   }
 
@@ -655,7 +655,7 @@ nav {
 .spec-detail {
   width: 168px;
   min-height: 64px;
-  padding: 16px;
+  /* padding: 1rem; */
   border-radius: 7px;
   display: flex;
   align-items: center;
