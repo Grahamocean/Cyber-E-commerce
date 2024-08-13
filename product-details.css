@@ -731,16 +731,9 @@ nav {
   min-height: 56px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-bottom: 2em;
   border: 1px solid blue;
-}
-
-@media (max-width: 450px) {
-  .product-buttons button {
-    width: 341px;
-    padding: 2rem 7rem;
-  }
 }
 
 .product-buttons button {
@@ -763,6 +756,17 @@ nav {
   color: #ffffff;
   background-color: #000;
   border: none;
+}
+
+@media (max-width: 450px) {
+  .product-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .product-buttons button {
+    width: 100%;
+    padding: 2rem 5rem;
+  }
 }
 
 /* PRODUCT FEATURE STYLING */
