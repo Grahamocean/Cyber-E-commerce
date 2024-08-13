@@ -700,9 +700,10 @@ nav {
     width: 148px;
   }
 
-  .spec-text p {
-    color: blue;
-    font-size: 0.5rem;
+  .spec-text p,
+  .spec-text span {
+    /* color: blue; */
+    font-size: 0.8rem;
   }
 }
 
