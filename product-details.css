@@ -863,8 +863,9 @@ nav {
 
 .details {
   width: 100%;
-  min-height: 130px;
-  margin-bottom: 2em;
+  height: 130px;
+  margin-bottom: 2rem;
+  border: 1px solid red;
 }
 
 .details h3 {
@@ -879,7 +880,13 @@ nav {
   font-family: var(--primary-font);
   color: var(--text-color);
   line-height: 1.5;
-  text-align: justify;
+  /* text-align: justify; */
+}
+
+@media (max-width: 450px) {
+  .details {
+    height: 100%;
+  }
 }
 
 .screen {
@@ -933,6 +940,13 @@ nav {
 
 .screen-details-span p {
   text-align: right;
+}
+
+@media (max-width: 450px) {
+  .screen-details-child p,
+  .screen-details-child span {
+    font-size: 1rem;
+  }
 }
 
 .cpu {
