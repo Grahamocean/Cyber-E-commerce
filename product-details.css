@@ -1005,19 +1005,19 @@ nav {
   border-radius: 8px;
   background-color: #ffffff;
   border: 1px solid black;
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   cursor: pointer;
 }
 
 .details-btn i {
   font-size: 1.2rem;
-  position: absolute;
+  /* position: absolute;
   left: 70%;
-  top: 40%;
-}
-
-@media (max-width: 450px) {
-  .details-btn;
+  top: 40%; */
 }
 
 /* REVIEW & COMMENT STYLING */
