@@ -699,6 +699,11 @@ nav {
   .spec-detail {
     width: 148px;
   }
+
+  .spec-text p {
+    color: blue;
+    font-size: 0.5rem;
+  }
 }
 
 .product-info {
