@@ -372,12 +372,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid yellow;
   padding: 0 1rem;
 }
 
 .details-child {
-  border: 1px solid rgb(189, 189, 255);
   width: 1120px;
   height: 100%;
   /* padding: 3rem 3rem; */
@@ -394,18 +392,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid green;
 }
 
 .details-child-product-details {
   width: 536px;
   max-width: 100%;
   min-height: 672px;
-  border: 1px solid black;
 }
 
 .small-img-container {
-  border: 1px solid purple;
   width: 74.88px;
   height: 444px;
   display: flex;
@@ -448,7 +443,6 @@ nav {
 .big-img-container {
   width: 413.12px;
   height: 100%;
-  border: 1px solid red;
 }
 
 .big-img-container img {
@@ -565,6 +559,7 @@ nav {
     flex-direction: column-reverse;
     height: 100%;
     gap: 2rem;
+    margin-top: 2rem;
     /* flex-wrap: wrap; */
   }
 
@@ -583,33 +578,26 @@ nav {
   .small-img2,
   .small-img3,
   .small-img4 {
-    border: 1px solid brown;
     width: 74px;
     height: 100%;
     /* object-fit: contain; */
+  }
+
+  .productname-pricecontainer {
+    margin-top: 3rem;
   }
 
   .productname-pricecontainer h2 {
     font-size: 2.4rem;
   }
 
+  .new-price {
+    font-size: 1.5rem;
+  }
+
   .product-colors h5 {
     font-size: 0.8rem;
     display: block;
-  }
-
-  .spec-detail {
-    /* padding: 1rem; */
-    gap: 1rem;
-  }
-
-  .spec-text {
-    /* width: 162px; */
-    border: 1px solid red;
-  }
-
-  .spec-text p {
-    font-size: 12px;
   }
 }
 
@@ -640,6 +628,16 @@ nav {
 .product-memory button:nth-child(4) {
   color: #000;
   border: 1px solid black;
+}
+
+@media (max-width: 450px) {
+  .product-memory {
+    gap: 0.5rem;
+  }
+
+  .product-memory button {
+    font-size: 0.8rem;
+  }
 }
 
 /* PRODUCT SPECIFICATION STYLING */
@@ -732,8 +730,7 @@ nav {
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
-  margin-bottom: 2em;
-  border: 1px solid blue;
+  margin-bottom: 2rem;
 }
 
 .product-buttons button {
@@ -766,14 +763,13 @@ nav {
   .product-buttons button {
     width: 100%;
     height: 56px;
-    padding: 2rem 5rem;
+    padding: 1rem 5rem;
   }
 }
 
 /* PRODUCT FEATURE STYLING */
 .product-feature {
   width: 100%;
-  border: 1px solid red;
   min-height: 56px;
   display: flex;
   /* flex-wrap: wrap; */
@@ -783,7 +779,6 @@ nav {
 .feature {
   width: 157.33px;
   height: 100%;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -795,7 +790,6 @@ nav {
   height: 56px;
   background-color: #f6f6f6;
   border-radius: 11px;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
 }
