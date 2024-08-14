@@ -858,7 +858,8 @@ nav {
   align-items: center;
   flex-direction: column;
   background-color: #ffffff;
-  padding: 3rem 2.5rem;
+  padding: 3rem 1rem;
+  border: 1px solid green;
 }
 
 .details {
