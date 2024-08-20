@@ -21,6 +21,10 @@
   src: url(/Font/Figtree-Regular.otf);
 }
 
+html {
+  font-family: var(--primary-font);
+}
+
 :root {
   --primary-font: SF PRO Display;
   --Figtree: Figtree;
@@ -1091,6 +1095,7 @@ nav {
 .overall-inner {
   border: 1px solid red;
   max-width: 300px;
+  min-height: 100%;
   text-align: center;
 }
 
@@ -1222,7 +1227,7 @@ nav {
 
   .rating-grade {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .overall {
@@ -1244,10 +1249,6 @@ nav {
 
   .star {
     font-size: 3rem;
-  }
-
-  .rating-grade {
-    font-size: 1.2rem;
   }
 }
 
