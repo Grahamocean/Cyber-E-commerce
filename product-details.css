@@ -1051,7 +1051,6 @@ nav {
   max-width: 100%;
   min-height: 1300px;
   padding: 5.5em;
-  border: 1px solid red;
 }
 .review-comment {
   max-width: 1120px;
@@ -1060,8 +1059,6 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 1em;
-  /* flex-wrap: wrap; */
-  /* border: 1px solid green; */
 }
 
 .review-comment h3 {
@@ -1073,11 +1070,9 @@ nav {
   max-width: 100%;
   min-height: 192px;
   display: flex;
-  /* padding: 0 1rem; */
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  border: 1px solid red;
 }
 
 .overall {
@@ -1093,7 +1088,6 @@ nav {
 }
 
 .overall-inner {
-  border: 1px solid red;
   max-width: 300px;
   height: 100%;
   text-align: center;
@@ -1121,27 +1115,21 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: 1px solid peru; */
 }
 
 .rating-progress {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid blue; */
   max-width: 100%;
-  /* height: 22px; */
 }
 
 .inner-right {
   display: flex;
   align-items: center;
-  /* padding: 0.2rem 0; */
   gap: 1.5em;
   justify-content: space-between;
   width: 70%;
-  /* max-width: 100%; */
-  /* border: 1px solid brown; */
 }
 
 .rating-grade {
@@ -1242,7 +1230,6 @@ nav {
   .overall {
     width: 100%;
     height: 152px;
-    border: 2px solid rgb(3, 3, 27);
     padding: 1rem 1rem;
     flex-direction: row;
     justify-content: center;
@@ -1252,8 +1239,6 @@ nav {
   .overall-inner {
     width: 132px;
     height: 100px;
-    /* text-align: center; */
-    /* padding-top: 3rem; */
   }
 
   .overall-inner h2 {
@@ -1276,7 +1261,6 @@ nav {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid yellow;
 }
 
 .review-child {
@@ -1404,10 +1388,6 @@ nav {
   .review-child {
     padding: 1rem;
   }
-
-  /* .review-child {
-    align-items: flex-start;
-  } */
 
   .review-image {
     height: 35px;
