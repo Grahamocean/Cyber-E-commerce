@@ -1233,6 +1233,8 @@ nav {
   .rating-grade {
     font-size: 0.8rem;
     font-weight: 400;
+    display: block;
+    border: 1px solid green;
   }
 
   .rating-number {
