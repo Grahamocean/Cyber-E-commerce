@@ -1434,15 +1434,12 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid green;
 }
 
 .discount-text {
   width: 1120px;
   max-width: 100%;
-  border: 1px solid black;
   min-height: 32px;
-  /* display: block; */
   margin-bottom: 1rem;
 }
 
@@ -1457,7 +1454,6 @@ nav {
   min-height: 432px;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   flex-wrap: wrap;
   gap: 1.296em;
   margin-top: 1rem;
@@ -1532,11 +1528,23 @@ nav {
 
 @media (max-width: 450px) {
   .discount-product {
-    padding: 0 1rem;
+    padding: 3rem 1rem;
+    margin-top: 3rem;
   }
   .product-card {
     width: 180px;
     height: 100%;
+  }
+  .discount-text h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .product-price {
+    font-size: 1.5rem;
   }
 
   .product-name {
@@ -1545,19 +1553,21 @@ nav {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  .product-btn {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 376px) {
   .product-card {
     width: 150px;
     padding: 1rem;
-    border: 1px solid black;
   }
 
   .product-image {
     width: 104px;
     height: 104px;
-    border: 1px solid blue;
     margin-top: 4rem;
   }
 
