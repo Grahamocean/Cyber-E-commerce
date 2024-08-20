@@ -1088,6 +1088,12 @@ nav {
   border-radius: 25px;
 }
 
+.overall-inner {
+  border: 1px solid red;
+  max-width: 300px;
+  text-align: center;
+}
+
 .overall h2 {
   font-family: var(--primary-font);
   font-size: 4.2rem;
@@ -1221,9 +1227,27 @@ nav {
 
   .overall {
     width: 100%;
+    height: 152px;
     border: 1px solid blue;
-    padding: 0 1rem;
-    margin: ;
+    padding: 3rem 1rem;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .overall-inner {
+    width: 132px;
+    text-align: center;
+    /* padding-top: 3rem; */
+    height: 100%;
+  }
+
+  .star {
+    font-size: 3rem;
+  }
+
+  .rating-grade {
+    font-size: 1.2rem;
   }
 }
 
