@@ -1428,15 +1428,22 @@ nav {
 /* DISCOUNT PRODUCT */
 
 .discount-product {
-  width: 100%;
+  max-width: 100%;
   min-height: 600px;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
 }
 
 .discount-text {
   width: 1120px;
-  height: 32px;
+  max-width: 100%;
+  border: 1px solid black;
+  min-height: 32px;
+  /* display: block; */
+  margin-bottom: 1rem;
 }
 
 .discount-text h3 {
@@ -1446,9 +1453,11 @@ nav {
 }
 
 .discount-product-card {
-  width: 1120px;
+  max-width: 1120px;
   min-height: 432px;
   display: flex;
+  justify-content: center;
+  border: 1px solid red;
   flex-wrap: wrap;
   gap: 1.296em;
   margin-top: 1rem;
@@ -1519,6 +1528,42 @@ nav {
   border: none;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .discount-product {
+    padding: 0 1rem;
+  }
+  .product-card {
+    width: 180px;
+    height: 100%;
+  }
+
+  .product-name {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 376px) {
+  .product-card {
+    width: 150px;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+
+  .product-image {
+    width: 104px;
+    height: 104px;
+    border: 1px solid blue;
+    margin-top: 4rem;
+  }
+
+  .product-btn {
+    width: 100%;
+  }
 }
 
 /* FOOTER STYLING */
