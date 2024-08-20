@@ -1231,7 +1231,7 @@ nav {
   }
 
   .rating-grade {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     display: block;
   }
@@ -1263,8 +1263,8 @@ nav {
   .overall-inner p {
     font-size: 0.8rem;
   }
-  .star span {
-    font-size: 1.5rem;
+  .star span i {
+    font-size: 1.2rem;
   }
 }
 
