@@ -22,33 +22,66 @@
   <body>
     <!-- NAVIGATION LINKS & CO -->
     <nav>
-      <div class="cyber-logo">
-        <img src="/images/Logo Vector.png" />
-      </div>
-
-      <div class="search">
-        <img src="/images/Search.png" alt="navsearchicon" />
-        <input class="search-input" type="search" placeholder="Search" />
-      </div>
-
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-
-      <div class="nav-icons">
-        <div class="navicon">
-          <img src="/images/love.png" />
+      <div class="nav-container">
+        <div class="cyber-logo">
+          <img src="./images/Logo Vector.png" />
         </div>
-        <div class="navicon">
-          <img src="/images/icons8-shopping-cart-24.png" />
+        <div class="search">
+          <img src="./images/Search.png" alt="navsearchicon" loading="lazy" />
+          <input class="search-input" type="search" placeholder="Search" />
         </div>
-        <div class="navicon">
-          <img src="images/icons8-user-32.png" />
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <div class="navicon">
+            <img src="./images/love.png" />
+          </div>
+          <div class="navicon">
+            <a href="shopping-cart.html"
+              ><img src="./images/icons8-shopping-cart-24.png"
+            /></a>
+          </div>
+          <div class="navicon">
+            <img src="images/icons8-user-32.png" />
+          </div>
+        </div>
+        <div class="menu-icon" id="menu-icon">
+          <i class="ri-menu-line" id="menubar"></i>
+          <i class="ri-close-large-line" id="closeMenu"></i>
+        </div>
+        <div class="menu-container-mobile" id="mobile_menu_container">
+          <div class="mobile-search-icon">
+            <div class="mobile-search">
+              <img
+                src="./images/Search.png"
+                alt="navsearchicon"
+                loading="lazy"
+              />
+              <input class="search-input" type="search" placeholder="Search" />
+            </div>
+            <div class="mobile-nav-icons">
+              <i class="ri-heart-line"></i>
+              <a href="shopping-cart.html"
+                ><i class="ri-shopping-cart-line"></i
+              ></a>
+              <i class="ri-user-line"></i>
+            </div>
+          </div>
+
+          <div class="mobile-nav-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -61,7 +94,7 @@
           <div class="cart-product-container">
             <div class="cart-product">
               <div class="cart-product-image">
-                <img src="/images/product-details image/1.png" alt="" />
+                <img src="./images/product-details image/1.png" alt="" />
               </div>
               <div class="cart-product-info">
                 <div class="info-left">
@@ -192,7 +225,7 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <footer>
+    <!-- <footer>
       <section class="footer-container">
         <div class="footer-info">
           <div class="cyber-logo">
@@ -277,6 +310,6 @@
           <img src="/images/socials/Instagram.png" alt="" />
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
