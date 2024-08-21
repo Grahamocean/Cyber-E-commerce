@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 @font-face {
@@ -690,7 +692,7 @@ nav {
 
   .info-left h3 {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .info-left p {
@@ -699,6 +701,7 @@ nav {
 
   .info-right {
     width: 100%;
+    margin-top: 1rem;
   }
   .info-right h2 {
     font-size: 1rem;
