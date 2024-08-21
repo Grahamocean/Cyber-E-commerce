@@ -690,8 +690,8 @@ nav {
     max-width: 236px;
   }
 
-  .info-left h3 {
-    font-size: 0.6rem;
+  .shop-cart .info-left h3 {
+    font-size: 1rem;
     font-weight: 600;
   }
 
@@ -720,7 +720,7 @@ nav {
     width: 100%;
   }
   .order-summary {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
     margin-top: 3rem;
     font-size: 1rem;
   }
