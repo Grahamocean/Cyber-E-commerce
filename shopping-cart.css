@@ -744,6 +744,13 @@ nav {
   .bonus-card-inner button {
     font-size: 0.8rem;
   }
+
+  .price-1 h4,
+  .price-2 h4,
+  .price-1 p,
+  .price-2 p {
+    font-size: 1rem;
+  }
 }
 
 /* FOOTER STYLING */
