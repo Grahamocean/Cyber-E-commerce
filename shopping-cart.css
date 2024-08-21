@@ -391,6 +391,7 @@ nav {
 .cart-product-image {
   width: 90px;
   height: 90px;
+  padding: 1rem;
 }
 
 .cart-product-image img {
@@ -404,6 +405,7 @@ nav {
   min-height: 80px;
   flex-wrap: wrap;
   display: flex;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
 
@@ -681,6 +683,7 @@ nav {
   .cart-product-info {
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .cart-product-image {
@@ -722,6 +725,24 @@ nav {
   }
   .order-summary {
     padding: 0 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+
+  .order-summary h3 {
+    font-size: 1.2rem;
+  }
+
+  .discount input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .bonus-card-inner input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .bonus-card-inner button {
+    font-size: 0.8rem;
   }
 }
 
