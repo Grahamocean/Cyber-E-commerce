@@ -490,6 +490,9 @@ nav {
 }
 
 @media (max-width: 450px) {
+  .addr {
+    margin-bottom: 1rem;
+  }
   .address-venue {
     margin-bottom: 1rem;
   }
@@ -565,7 +568,7 @@ nav {
 }
 
 .cross {
-  width: 24px;
+  max-width: 24px;
   height: 100%;
 }
 
