@@ -461,7 +461,7 @@ nav {
 .address-venue {
   width: 100%;
   min-height: 24px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -490,14 +490,22 @@ nav {
 }
 
 @media (max-width: 450px) {
-  .address-venue p {
+  .address-venue {
+    margin-bottom: 1rem;
+  }
+
+  .address-cancel-edit button i {
     font-size: 1rem;
+    /* border: 1px solid blue; */
+  }
+  .address-venue p {
+    font-size: 0.9rem;
   }
 
   .address-venue2 h5,
   .address-venue2 p {
-    font-size: 1rem;
-    border: 1px solid blue;
+    font-size: 0.9rem;
+    /* border: 1px solid blue; */
   }
 }
 
