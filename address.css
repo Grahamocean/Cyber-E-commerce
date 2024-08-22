@@ -331,7 +331,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+}
+
+@media (max-width: 450px) {
+  .one {
+    height: 100px;
+  }
 }
 
 .one-inner {
@@ -396,14 +401,13 @@ nav {
 @media (max-width: 450px) {
   .address-text p,
   .address-text span {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
 /* TWO STYLING */
 .two {
   max-width: 100%;
-  border: 1px solid green;
   height: 688px;
   display: flex;
   justify-content: center;
@@ -418,13 +422,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .address-container {
   width: 100%;
-  /* width: 1220px; */
-  border: 1px solid blue;
   min-height: 464px;
   display: flex;
   flex-direction: column;
@@ -447,7 +448,6 @@ nav {
 
 .addr {
   max-width: 100%;
-  border: 1px solid black;
   min-height: 144px;
   background-color: #f6f6f6;
   padding: 24px;
@@ -468,7 +468,6 @@ nav {
 .address-venue {
   width: 100%;
   min-height: 24px;
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -504,9 +503,12 @@ nav {
     margin-bottom: 1rem;
   }
 
+  .address-container h3 {
+    font-size: 1.5rem;
+  }
+
   .address-cancel-edit button i {
     font-size: 1rem;
-    /* border: 1px solid blue; */
   }
   .address-venue p {
     font-size: 0.9rem;
@@ -514,8 +516,7 @@ nav {
 
   .address-venue2 h5,
   .address-venue2 p {
-    font-size: 0.9rem;
-    /* border: 1px solid blue; */
+    font-size: 0.8rem;
   }
 }
 
@@ -607,7 +608,6 @@ nav {
 
 .buttons {
   max-width: 100%;
-  border: 1px solid black;
   height: 64px;
   display: flex;
   justify-content: flex-end;
