@@ -448,7 +448,7 @@ nav {
 
 .addr {
   max-width: 100%;
-  min-height: 144px;
+  height: 144px;
   background-color: #f6f6f6;
   padding: 2rem 1.5rem;
   display: flex;
