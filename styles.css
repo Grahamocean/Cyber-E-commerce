@@ -101,7 +101,7 @@ nav {
   list-style-type: none;
   display: inline-flex;
   /* justify-content: space-between; */
-  width: 300px;
+  /* width: 300px; */
 }
 
 .nav-links a {
@@ -330,7 +330,8 @@ nav {
 .hero {
   position: relative;
   max-width: 100%;
-  min-height: 600px;
+  /* min-height: 600px; */
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -356,13 +357,13 @@ nav {
   justify-content: space-between;
   display: flex;
   margin: 0 auto;
-  gap: 4em;
+  /* gap: 4em; */
   margin-top: 5rem;
 }
 
 .hero-left-side {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
   line-height: 1.2;
   max-width: 700px;
@@ -379,15 +380,18 @@ nav {
   color: var(--text-color);
 }
 .hero-left-side h3 {
-  font-family: var(--primary-font);
-  font-size: 8rem;
+  font-family: var(--Figtree);
+  line-height: 1;
+  /* font-size: 8rem; */
+  font-size: 6rem;
   color: #ffffff;
   font-weight: 100;
 }
 
 .hero-left-side h3 > span {
   font-family: var(--primary-font);
-  font-size: 8rem;
+  /* font-size: 8rem; */
+  font-size: 6rem;
   font-weight: 600;
   color: #ffffff;
 }
