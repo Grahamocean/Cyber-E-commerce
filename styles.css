@@ -1421,17 +1421,18 @@ nav {
 /* PRODUCT-BANNER */
 .product-banner {
   width: 100%;
-  height: 640px;
+  min-height: 640px;
   display: flex;
 }
 
 .product-banner-container {
   width: 315px;
   height: 100%;
-  padding: 4rem 2rem;
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  /* border: 1px solid red; */
+  /* gap: 2em; */
 }
 
 .product-banner-container:nth-of-type(2) {
@@ -1466,23 +1467,30 @@ nav {
   object-fit: contain;
 }
 
-.product-banner-container h3 {
-  font-family: var(--primary-font);
-  font-size: 2.1rem;
-  font-weight: 300;
+.banner-textt {
+  /* border: 1px solid red; */
+  /* min-height: fit-content; */
+  width: 100%;
 }
 
-.product-banner-container p {
-  font-size: 1rem;
+.banner-textt h3 {
+  font-family: var(--primary-font);
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.banner-textt p {
+  font-size: 0.875rem;
   font-weight: 500;
   font-family: var(--primary-font);
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .banner-btn {
-  width: 184px;
-  height: 56px;
+  padding: 1rem 3.5rem;
   border-radius: 7px;
   font-family: var(--primary-font);
   color: #000000;
