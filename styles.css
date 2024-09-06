@@ -1423,6 +1423,7 @@ nav {
   width: 100%;
   min-height: 640px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-banner-container {
