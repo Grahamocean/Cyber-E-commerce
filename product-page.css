@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--primary-font);
 }
 
 @font-face {
@@ -33,14 +34,26 @@
 nav {
   width: 100%;
   height: 80px;
+  position: fixed;
+  border-bottom: 1px solid #b5b5b5;
+  z-index: 100;
+  background-color: #fff;
+  top: 0;
+  padding: 0 6%;
+  position: relative;
+}
+
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 4em;
-  padding: 0 5rem;
-  border-bottom: 1px solid #b5b5b5;
+  padding: 0 1rem;
+  width: 100%;
+  min-height: 80px;
+  margin-inline: auto;
+  /* z-index: 100; */
 }
-
 .cyber-logo {
   width: 65.4px;
   height: 22.87px;
@@ -61,10 +74,11 @@ nav {
   padding: 14px;
   border-radius: 7px;
   background-color: #e6e6e6bc;
+  /* position: relative; */
 }
 
 .search-input {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-family: var(--primary-font);
   color: #000000bc;
   outline: none;
@@ -80,17 +94,19 @@ nav {
 
 .nav-links ul {
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 2em;
+  display: inline-flex;
+  /* justify-content: space-between; */
+  /* width: 300px; */
 }
 
 .nav-links a {
   text-decoration: none;
   font-family: var(--primary-font);
-  font-size: 1.5em;
+  font-size: 1rem;
   color: var(--primary-color);
   font-weight: 500;
+  margin: 0 0.5rem;
+  /* border: 1px solid red; */
 }
 
 .nav-links a:hover {
@@ -105,21 +121,205 @@ nav {
 .nav-icons {
   width: 120px;
   height: 30px;
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .navicon {
   width: 20px;
   height: 100%;
-  /* border: 1px solid #000; */
 }
 
 .navicon img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.menu-icon {
+  display: none;
+
+  /* display: flex; */
+  position: relative;
+}
+
+.menu-icon i:last-child {
+  display: none;
+}
+
+.menu-icon i {
+  font-size: 1.5rem;
+}
+
+.menu-container-mobile {
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 14%;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* FOR MOBILE */
+@media (max-width: 1042px) {
+  .menu-container-mobile {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 14%;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 3rem;
+    /* display: block; */
+  }
+
+  .nav-container {
+    padding: 0 2rem;
+  }
+  .nav-links ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    z-index: 500;
+  }
+
+  .mobile-search-icon {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-nav-icons {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .mobile-nav-icons i {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .mobile-nav-links {
+    width: 100%;
+    text-align: center;
+    font-family: var(--primary-font);
+    color: #fff;
+  }
+
+  .mobile-nav-links ul li {
+    margin-bottom: 1rem;
+  }
+
+  .mobile-nav-links ul li a {
+    color: #fff;
+    letter-spacing: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-search {
+    width: 372px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 14px;
+    border-radius: 7px;
+    background-color: #e6e6e6bc;
+    /* position: relative; */
+  }
+
+  .mobile-search-icon {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-nav-icons {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .search-input {
+    font-size: 1.3rem;
+    font-family: var(--primary-font);
+    color: #000000bc;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .search-input::placeholder {
+    color: #656565;
+    font-family: var(--primary-font);
+  }
+
+  .mobile-search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 14px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    /* position: relative; */
+  }
+
+  .mobile-search-icon {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .mobile-nav-icons {
+    /* display: flex; */
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 831px) {
+  .search,
+  .nav-icons {
+    display: none;
+  }
 }
 
 .breadcrumbs {
@@ -333,14 +533,13 @@ nav {
   width: 266.33px;
   height: 432px;
   padding: 2rem;
-  line-height: 1.5;
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 1.5em;
   background-color: var(--product-card);
-  border-radius: 3px;
+  border-radius: 7px;
   border: none;
 }
 
@@ -370,30 +569,44 @@ nav {
   object-fit: contain;
 }
 
+.product-inner {
+  /* border: 1px solid black; */
+  /* min-height: 200px; */
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
 .product-name {
-  font-size: 1.2em;
+  margin-bottom: 1rem;
+  font-size: 1rem;
   font-family: var(--primary-font);
   text-align: center;
   font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .product-price {
-  font-size: 2em;
+  font-size: 1rem;
   font-family: var(--primary-font);
   font-weight: 600;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .product-btn {
-  width: 183px;
-  height: 48px;
+  font-size: 1rem;
+  padding: 0.65rem 4rem;
   border-radius: 7px;
-  font-family: var(--primary-font);
-  color: #ffffff;
   background-color: #000;
   border: none;
-  font-size: 1.2em;
   cursor: pointer;
+  width: 100%;
+  color: white;
+  text-decoration: none;
 }
 
 .pagination {

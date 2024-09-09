@@ -1249,7 +1249,6 @@ nav {
   width: 268px;
   height: 432px;
   padding: 2rem;
-  /* line-height: 1.5; */
   position: relative;
   display: flex;
   align-items: center;
@@ -1258,7 +1257,6 @@ nav {
   background-color: var(--product-card);
   border-radius: 7px;
   border: none;
-  /* border: 2px solid rgb(168, 168, 251); */
 }
 
 .fav {
