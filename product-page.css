@@ -504,13 +504,13 @@ nav {
 
 .right-frame-heading-text h3 {
   font-family: var(--primary-font);
-  font-size: 1.3em;
+  font-size: 1rem;
   font-weight: 500;
   color: #6c6c6c;
 }
 
 .right-frame-heading-text p {
-  font-size: 1.3em;
+  font-size: 1rem;
   font-weight: 600;
   font-family: var(--primary-font);
 }
@@ -521,7 +521,7 @@ nav {
   outline: 0;
   border: 0.5 solid #d4d4d4;
   border-radius: 7px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: var(--primary-font);
 }
 
@@ -689,7 +689,7 @@ footer {
 
 .footer-info p {
   color: var(--footer-text);
-  font-size: 1.2rem;
+  font-size: 0.875rem;
   font-family: var(--primary-font);
   padding-top: 2em;
   font-weight: 500;
@@ -701,7 +701,7 @@ footer {
 }
 
 .footer-nav h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
   font-family: var(--primary-font);
@@ -718,7 +718,7 @@ footer {
 .footer-nav a {
   text-decoration: none;
   color: var(--footer-text);
-  font-size: 1.2rem;
+  font-size: 0.875rem;
   font-family: var(--primary-font);
   font-weight: 400;
 }
