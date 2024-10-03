@@ -10,17 +10,17 @@
 
 @font-face {
   font-family: SF PRO Display;
-  src: url(/Font/SFPRODISPLAYREGULAR.OTF);
+  src: url(./Font/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
   font-family: SF Thin;
-  src: url(/font/FontsFree-Net-SFProDisplay-Thin.ttf);
+  src: url(./font/FontsFree-Net-SFProDisplay-Thin.ttf);
 }
 
 @font-face {
   font-family: Figtree;
-  src: url(/Font/Figtree-Regular.otf);
+  src: url(./Font/Figtree-Regular.otf);
 }
 
 html {
