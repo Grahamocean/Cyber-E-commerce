@@ -883,7 +883,7 @@ nav {
 }
 
 .details p {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-family: var(--primary-font);
   color: var(--text-color);
   line-height: 1.5;
@@ -911,7 +911,7 @@ nav {
 }
 
 .screen h3 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-family: var(--primary-font);
   font-weight: 600;
   margin-bottom: 1em;
@@ -938,12 +938,12 @@ nav {
 
 .screen-details-child p {
   font-family: var(--primary-font);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .screen-details-child span {
-  font-size: 1.2rem;
+  font-size: 0.9375rem;
   font-family: var(--primary-font);
   font-weight: 500;
 }
@@ -955,6 +955,7 @@ nav {
 
 .screen-details-span p {
   text-align: right;
+  font-size: 0.9375rem;
 }
 
 @media (max-width: 450px) {
@@ -976,7 +977,7 @@ nav {
 
 .cpu h3 {
   font-family: var(--primary-font);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1em;
 }
@@ -1001,13 +1002,13 @@ nav {
 
 .cpu-detail-child p {
   font-family: var(--primary-font);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .cpu-detail-child span {
   font-family: var(--primary-font);
-  font-size: 1.2rem;
+  font-size: 0.9375rem;
   font-weight: 500;
 }
 @media (max-width: 450px) {
@@ -1023,7 +1024,7 @@ nav {
 .details-btn {
   width: 208px;
   min-height: 48px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: var(--primary-font);
   border-radius: 8px;
   background-color: #ffffff;
@@ -1066,7 +1067,7 @@ nav {
 
 .review-comment h3 {
   font-family: var(--primary-font);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .rating {
@@ -1098,17 +1099,17 @@ nav {
 
 .overall h2 {
   font-family: var(--primary-font);
-  font-size: 4.2rem;
+  font-size: 3.5rem;
 }
 
 .overall p {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-family: var(--primary-font);
   color: var(--text-color);
 }
 
 .overall span {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--star-color);
 }
 
@@ -1136,7 +1137,7 @@ nav {
 }
 
 .rating-grade {
-  font-size: 1.3rem;
+  font-size: 1.129rem;
   font-family: var(--primary-font);
   font-weight: 500;
   color: #000;
@@ -1271,7 +1272,8 @@ nav {
   min-height: 208px;
   padding: 24px 28px 24px 16px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 1rem;
   background-color: #fafafa;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -1309,7 +1311,8 @@ nav {
   width: 1000px;
   min-height: 160px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 0.5rem;
   flex-direction: column;
 }
 
@@ -1323,23 +1326,23 @@ nav {
 .name-date h2 {
   font-family: var(--primary-font);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.0625rem;
 }
 
 .name-date h6 {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-family: var(--primary-font);
   font-weight: 500;
   color: #00000057;
 }
 
 .review-star span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--star-color);
 }
 
 .review-content p {
-  font-size: 1.2rem;
+  font-size: 0.9375rem;
   text-align: justify;
   line-height: 1.5;
   font-family: var(--primary-font);
